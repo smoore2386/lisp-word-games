@@ -1,0 +1,434 @@
+name: Cezar Delucca
+date: January 17, 2013
+program: ACL2 Word Games
+instructor: Dr. Page
+language: ACL2
+
+
+time log:
+
+	- date: Jan 17, 2013
+	  start time: 10:33am
+	  end time: 11:44am
+          phase: planning
+	  comment: Team began brainstorming ideas for the semester-long project.
+
+	- date: Jan 22, 2013
+	  start time: 10:30am
+	  end time: 11:46am
+          phase: planning
+	  comment: Team continued to brainstorm and evenutally
+		   came up with a potential idea, a word-search/crossword puzzle
+		   generator and solver using AI techniques such as a Genetic Algorithm.
+
+	- date: Jan 24, 2013
+	  start time: 10:31am
+	  end time: 11:45am
+          phase: init
+	  comment: Team began implementing project proposal
+	           and split first presentation requirements (t1,t2,t3) amoung the members.
+
+	- date: Jan 27, 2013
+	  start time: 10:43am
+	  end time: 1:15pm
+          phase: indiv doc
+	  comment: Worked on the Engineering procedures and standards document. 
+
+	- date: Jan 29, 2013
+	  start time: 10:30am
+	  end time: 11:43am
+          phase: planning
+	  comment: Team finished slideshow and allocated slides to each member for the presentation.
+
+	- date: Jan 30, 2013
+	  start time: 7:43am
+	  end time: 8:27am
+          phase: indiv doc
+	  comment: Finished Engineering practices and procedures document and shared with team members.
+
+	- date: Feb 5, 2013
+	  start time: 10:30am
+	  end time: 11:50am
+          phase: allocation
+	  comment: Team prepared for the first progress report and allocated modules. 
+
+	- date: Feb 7, 2013
+	  start time: 10:29am
+	  end time: 11:42am
+          phase: progress report
+	  comment: The session was used for conducting a progress report to Dr. Page.
+
+	- date: Feb 8, 2013
+	  start time: 2:01pm
+	  end time: 3:16pm
+          phase: implementation
+	  comment: Began the brute force solver and created functions for concatenation of char lists and finding the lengths of the words.
+
+	- date: Feb 9, 2013
+	  start time: 2:30pm
+	  end time: 5:45pm
+          phase: implementation
+	  comment: Implemented search left to right and almost completed search right to left.
+
+	- date: Feb 9, 2013
+	  start time: 9:15pm
+	  end time: 9:38pm
+          phase: implementation
+	  comment: Finished search left functions and bugs.
+
+	- date: Feb 10, 2013
+	  start time: 12:30pm
+	  end time: 3:05pm
+          phase: implementation
+	  comment: Finished brute force solver. It successfully finds words in all directions.
+
+	- date: Feb 12, 2013
+	  start time: 10:30am
+	  end time: 11:44am
+          phase: meeting
+	  comment: Team worked on current multi-level design document along with probe estimates.
+
+	- date: Feb 14, 2013
+	  start time: 10:32am
+	  end time: 11:45am
+          phase: meeting
+	  comment: Team began preparing for the next progress report and finished the design documents and work for remaining modules. 
+
+	- date: Feb 17, 2013
+	  start time: 4:30pm
+	  end time: 5:55pm
+          phase: testing
+	  comment: Began implementing unit tests for brute force solver. 
+
+	- date: Feb 19, 2013
+	  start time: 7:25am
+	  end time: 8:40am
+          phase: testing
+	  comment: Finished implementing unit tests for brute force solver. 
+
+	- date: Feb 19, 2013
+	  start time: 10:25am
+	  end time: 11:43am
+          phase: meeting
+	  comment: Team discussed the next progress report and finished assignment.  
+
+	- date: Feb 21, 2013
+	  start time: 10:33am
+	  end time: 11:46am
+          phase: meeting
+	  comment: Team conducted a progress report to Dr. Page and discussed further implementation issues.
+
+	- date: Feb 23, 2013
+	  start time: 3:45pm
+	  end time: 4:32pm
+          phase: implementation
+	  comment: Began hill climbing search. Started recycling useful code from brute force solver. 
+
+	- date: Feb 25, 2013
+	  start time: 6:32pm
+	  end time: 7:57pm
+          phase: implementation
+	  comment: Continued working on hill climber search. Still needs a better design plan.  
+
+	- date: Feb 26, 2013
+	  start time: 10:30am
+	  end time: 11:50am
+          phase: meeting
+	  comment: team worked on the t9 and t10 documents.
+
+	- date: Feb 26, 2013
+	  start time: 6:35pm
+	  end time: 8:11pm
+          phase: implementation
+	  comment: Continued planning out the hill climbing search. Considering a row-by-row localized search procedure. 
+
+	- date: Feb 28, 2013
+	  start time: 10:25pm
+	  end time: 11:50pm
+          phase: meeting
+	  comment: Group worked on required docs and discussed future tasks.
+
+	- date: Mar 5, 2013
+	  start time: 10:33pm
+	  end time: 11:41pm
+          phase: meeting
+	  comment: Team prepared for the next progress report on thursday.
+
+	- date: Mar 5, 2013
+	  start time: 6:47pm
+	  end time: 8:23pm
+          phase: implementation
+	  comment: Continued debugging hill climbing solver for the right to left matching.
+
+	- date: Mar 6, 2013
+	  start time: 6:50pm
+	  end time: 8:36pm
+          phase: implementation
+	  comment: Finished debugging hill climbing solver's match-right-to-left function.
+
+	- date: Mar 9, 2013
+	  start time: 12:32pm
+	  end time: 3:24pm
+          phase: unit testing
+	  comment: Implemented unit tests for hill climbing solver and fixed bugs along the way. 
+
+	- date: Mar 12, 2013
+	  start time: 10:30am
+	  end time: 11:38am
+          phase: meeting
+	  comment: Group discussed bug fixes for create board and other functions.
+
+	- date: Mar 26, 2013
+	  start time: 10:33am
+	  end time: 11:44pam
+	  comment: Group planned and implemented a progress report for Dr. Page to be presented the following meeting.
+
+	- date: Mar 28, 2013
+	  start time: 10:30am
+	  end time: 11:40am
+          phase: meeting
+	  comment: A progress report was conducted for Dr. Page. Afterwards we began planning the future for future tasks, including the presentation. 
+
+	- date: Apr 2, 2013
+	  start time: 10:29am
+	  end time: 11:42am
+          phase: meeting
+	  comment: Group began preparations for hte upcming software demonstration presentation. 
+
+	- date: Apr 4, 2013
+	  start time: 10:31am
+	  end time: 11:46am
+          phase: meeting
+	  comment: Group continued preparing the the upcoming presentation and separated portions.
+
+	- date: Apr 9, 2013
+	  start time: 10:30am
+	  end time: 12:15pm
+          phase: presentation
+	  comment: Presentation day. The team presented the semester-long project to the class and individuals out in the field.
+
+	- date: Apr 11, 2013
+	  start time: 10:30am
+	  end time: 12:20pm
+          phase: presentation
+	  comment: We watched others present their semester-long projects today.
+
+	- date: Apr 16, 2013
+	  start time: 10:30am
+	  end time: 11:45am
+          phase: meeting
+	  comment: The team began planning for Godel's project improvement. 
+
+	- date: Apr 18, 2013
+	  start time: 10:30am
+	  end time: 11:15am
+          phase: cancelled
+	  comment: The meeting with the guest speaker was cancelled.
+
+	- date: Apr 23, 2013
+	  start time: 10:30am
+	  end time: 11:46am
+          phase: meeting
+	  comment: The team allocated work for the cellular automata project.
+
+	- date: Apr 25, 2013
+	  start time: 10:28am
+	  end time: 11:43am
+          phase: meeting
+	  comment: Team split final pieces of the improvements for the cellular automata project and worked independently on them.
+
+	- date: Apr 30, 2013
+	  start time: 10:30am
+	  end time: 11:44am
+          phase: presentation
+	  comment: Team presented Godels revisions.
+
+defect log:
+
+	- date: Feb 8, 2013
+	  type: helper
+	  fix time: 15
+	  comment: Fixed a problem with string concatenation within lists. 
+
+	- date: Feb 9, 2013
+	  type: search
+	  fix time: 25
+	  comment: Fixed a problem with returning list of vectors. 
+
+	- date: Feb 9, 2013
+	  type: search
+	  fix time: 10
+	  comment: Fixed the coordinates for search left.  
+
+	- date: Feb 26, 2013
+	  type: function
+	  fix time: 34
+	  comment: Had an issue with iterating and matching solutions to first letters.
+
+	- date: Mar 5, 2013
+	  type: function
+	  fix time: 50
+	  comment: Fixed the logic for match-right-to-left. 
+
+	- date: Mar 9, 2013
+	  type: function
+	  fix time: 45
+	  comment: There is a bug with finding a match from down to up on a small matrix.
+
+	- date: Mar 9, 2013
+	  type: function
+	  fix time: 15
+	  comment: There is a bug with matching right to left, again.
+ 
+new objects:
+
+	- name: concat-count
+	  type: function
+	  estimated lines: 6
+
+	- name: brute-force-solver
+	  type: entry point
+	  estimated lines: 7
+
+	- name: search-right-to-left
+	  type: func
+	  estimated lines: 6
+
+	- name: search-left-to-right
+	  type: func
+	  estimated lines: 6
+
+	- name: search-up-to-down
+	  type: func
+	  estimated lines: 6
+
+	- name: search-down-to-up
+	  type: func
+	  estimated lines: 6
+
+	- name: reverse-matrix
+	  type: helper
+	  estimated lines: 4
+
+	- name: linear-row-search
+	  type: helper
+	  estimated lines: 7
+
+	- name: linear-row-search-helper
+	  type: helper 
+	  estimated lines: 6
+
+	- name: nthrdc
+	  type: helper
+	  estimated lines: 3
+
+	- name: clean-results
+	  type: function
+	  estimated lines: 6
+
+	- name: transpose
+	  type: function
+	  estimated lines: 5
+
+	- name: transpose-helper
+	  type: helper
+	  estimated lines: 5
+
+	- name: concat-count-tests
+	  type: unit tests
+	  estimated lines: 4
+
+	- name: nthrdc-tests
+	  type: unit tests
+	  estimated lines: 3
+
+	- name: linear-search-tests
+	  type: unit tests
+	  estimated lines: 6
+
+	- name: reverse-matrix-tests
+	  type: unit tests
+	  estimated lines: 22
+
+	- name: search-right-to-left-tests
+	  type: unit tests
+	  estimated lines: 36
+
+	- name: transpose-test
+	  type: unit test
+	  estimated lines: 20
+
+	- name: search-up-to-down-tests
+	  type: unit tests
+	  estimated lines: 30
+
+	- name: search-down-to-up-tests
+	  type: unit tests
+	  estimated lines: 36
+
+	- name: clean-results-tests
+	  type: unit tests
+	  estimated lines: 4
+
+	- name: brute-force-solver-tests
+	  type: unit tests
+	  estimated lines: 38
+
+	- name: char-concat-count
+	  type: function
+	  estimated lines: 5
+
+	- name: char-concat-count-helper
+	  type: helper
+	  estimated lines: 4
+
+	- name: clean-results-helper
+	  type: helper
+	  estimated lines: 5
+
+	- name: match-left-to-right
+	  type: function
+	  estimated lines: 5
+
+	- name: match-right-to-left
+	  type: function
+	  estimated lines: 7
+
+	- name: match-up-to-down
+	  type: function
+	  estimated lines: 5
+
+	- name: match-down-to-up
+	  type: function
+	  estimated lines: 5
+
+	- name: localize
+	  type: function
+	  estimated lines: 30
+
+	- name: char-match
+	  type: function
+	  estimated lines: 5
+
+	- name: row-char-search
+	  type: function
+	  estimated lines: 8
+
+	- name: search-and-localize
+	  type: function
+	  estimated lines: 4
+
+	- name: hill-climbing-solver
+	  type: init
+	  estimated lines: 4
+
+	- name: hill-climbing-solver tests
+	  type: unit tests
+	  estimated lines: 165
+
+	
+
+
+
+
+	
